@@ -4,12 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="person" class="org.syh.spring.basic_di.a_set.bean.Person">
+    <bean id="person" class="org.syh.spring.basic_di.a_setter.bean.Person">
         <property name="name" value="Tom" />
         <property name="age" value="28" />
     </bean>
 
-    <bean id="cat" class="org.syh.spring.basic_di.a_set.bean.Cat">
+    <bean id="cat" class="org.syh.spring.basic_di.a_setter.bean.Cat">
         <property name="name" value="Leo" />
         <property name="master" ref="person" />
     </bean>

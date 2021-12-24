@@ -1,8 +1,8 @@
-package org.syh.spring.basic_di.a_set.bean;
+package org.syh.spring.basic_di.a_setter.bean;
 
-public class Cat {
+public class Person {
     private String name;
-    private Person master;
+    private Integer age;
 
     public String getName() {
         return name;
@@ -12,19 +12,19 @@ public class Cat {
         this.name = name;
     }
 
-    public Person getMaster() {
-        return master;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setMaster(Person master) {
-        this.master = master;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     @Override
     public String toString() {
-        return  "Cat{" +
+        return  "Person{" +
                 "name='" + name + '\'' +
-                ", master=" + master +
+                ", age=" + age +
                 '}';
     }
 }
