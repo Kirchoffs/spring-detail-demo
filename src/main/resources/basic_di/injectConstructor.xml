@@ -5,7 +5,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="tree" class="org.syh.spring.basic_di.b_constructor.bean.Tree">
-        <constructor-arg name="leaf" value="pines" />
-        <constructor-arg name="flower" value="reddish" />
+        <constructor-arg name="leaf" value="pines"/>
+        <constructor-arg name="flower" value="reddish"/>
     </bean>
 </beans>

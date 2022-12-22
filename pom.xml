@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.syh</groupId>
-    <artifactId>SpringDemo</artifactId>
+    <artifactId>spring-details</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>SpringDemo</name>

@@ -1,1 +1,1 @@
-# SpringDemo
+# spring-details

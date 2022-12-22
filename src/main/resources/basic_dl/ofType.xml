@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="demoCryptomeriaDao" class="org.syh.spring.basic_dl.c_ofType.dao.impl.DemoCryptomeriaDao" />
-    <bean id="demoCunninghamiaDao" class="org.syh.spring.basic_dl.c_ofType.dao.impl.DemoCunninghamiaDao" />
-    <bean id="demoPodocarpusDao" class="org.syh.spring.basic_dl.c_ofType.dao.impl.DemoPodocarpusDao" />
+    <bean id="demoCryptomeriaDao" class="org.syh.spring.basic_dl.c_ofType.dao.impl.DemoCryptomeriaDao"/>
+    <bean id="demoCunninghamiaDao" class="org.syh.spring.basic_dl.c_ofType.dao.impl.DemoCunninghamiaDao"/>
+    <bean id="demoPodocarpusDao" class="org.syh.spring.basic_dl.c_ofType.dao.impl.DemoPodocarpusDao"/>
 </beans>

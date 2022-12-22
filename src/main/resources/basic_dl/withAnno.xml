@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="mentha" class="org.syh.spring.basic_dl.d_withAnno.bean.Mentha" />
-    <bean id="orychophragmus" class="org.syh.spring.basic_dl.d_withAnno.bean.Orychophragmus" />
-    <bean id="raphanus" class="org.syh.spring.basic_dl.d_withAnno.bean.Raphanus" />
+    <bean id="mentha" class="org.syh.spring.basic_dl.d_withAnno.bean.Mentha"/>
+    <bean id="orychophragmus" class="org.syh.spring.basic_dl.d_withAnno.bean.Orychophragmus"/>
+    <bean id="raphanus" class="org.syh.spring.basic_dl.d_withAnno.bean.Raphanus"/>
 </beans>
